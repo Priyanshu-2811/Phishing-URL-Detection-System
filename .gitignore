@@ -1,0 +1,102 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Model Files (large files)
+notebooks/model/*.pkl
+notebooks/model/*.joblib
+*.pkl
+*.joblib
+
+# Generated visualizations (optional - comment out if you want to track them)
+notebooks/*.png
+notebooks/*.jpg
+notebooks/*.jpeg
+
+# IDE and Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Flask
+instance/
+.webassets-cache
+*.pyc
+
+# Testing and Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Environment variables and config
+.env
+.env.local
+config.ini
+secrets.py
+
+# Temporary files
+*.bak
+*.swp
+*.swo
+*~
+
+# Debug files
+debug_features.py
+test_*.py
+temp_*.py
+
+# Output directories
+outputs/
+results/
+logs/
+
+# Large data files (uncomment if you don't want to track)
+# data/*.csv
+
+# Interface screenshots (keep these for README)
+!interface/*.png
+!interface/*.jpg
+
+# Temporary analysis files
+*_test.py
+debug_*.py
+temp_*.ipynb
+
+# Keep important files (force include)
+!requirements.txt
+!README.md
+!.gitignore
+
+# Flask development files
+*.db
+*.sqlite3
+flask_session/
+
+# Machine Learning experiment files
+experiments/
+checkpoints/
+wandb/
+
+# Documentation build files
+docs/_build/
+site/
