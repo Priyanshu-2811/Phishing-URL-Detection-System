@@ -302,14 +302,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Inspiration**: Cybersecurity research and threat intelligence
 - **Libraries**: scikit-learn, Flask, and the open-source Python ecosystem
 
-## 🔗 Links
-
-- **Demo**: [Live Application](http://your-demo-link.com)
-- **Documentation**: [Project Wiki](https://github.com/yourusername/phishing-url-detection/wiki)
-- **Issues**: [Bug Reports](https://github.com/yourusername/phishing-url-detection/issues)
-
----
-
 <div align="center">
   <strong>🛡️ Protecting users from phishing threats, one URL at a time!</strong>
   <br>
